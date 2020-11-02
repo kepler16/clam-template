@@ -1,0 +1,6 @@
+.cpcache
+.nrepl-port
+classes
+node_modules
+.env.local
+.shadow-cljs

@@ -1,0 +1,6 @@
+{:deps true
+ :builds
+ {:api {:target :node-library
+        :js-options {:js-package-dirs ["node_modules" "../node_modules"]}
+        :output-to "../vercel/api/handler.js"
+        :exports-var kepler16.principaltower.api.core/handler}}}
