@@ -5,7 +5,4 @@
         kepler16/clam {:mvn/version "0.0.2"}
         cider/cider-nrepl {:mvn/version "0.25.4"}
         refactor-nrepl/refactor-nrepl {:mvn/version "2.5.0"}
-        binaryage/devtools {:mvn/version "1.0.2"}}
- :aliases
- {:dev {:extra-deps {kepler16/firebase {:local/root "../../libs/firebase"}
-                     kepler16/clam {:local/root "../../libs/clam"}}}}}
+        binaryage/devtools {:mvn/version "1.0.2"}}}

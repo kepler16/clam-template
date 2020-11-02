@@ -2,5 +2,4 @@
  :paths ["src"]
  :deps {project/root {:local/root ".."}}
  :aliases
- {:dev {:extra-deps {kepler16/firebase {:local/root "../../../libs/firebase"}
-                     kepler16/clam {:local/root "../../../libs/clam"}}}}}
+ {:dev {:extra-deps {kepler16/clam {:local/root "../.."}}}}}

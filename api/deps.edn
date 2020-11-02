@@ -1,7 +1,6 @@
 {:mvn/repos {"github" {:url "https://maven.pkg.github.com/kepler16/*"}}
  :paths ["src"]
  :deps {project/root {:local/root ".."}
-        principaltower/client {:local/root "../client"}}
+        project/client {:local/root "../client"}}
  :aliases
- {:dev {:extra-deps {kepler16/firebase {:local/root "../../../libs/firebase"}
-                     kepler16/clam {:local/root "../../../libs/clam"}}}}}
+ {:dev {:extra-deps {kepler16/clam {:local/root "../.."}}}}}
