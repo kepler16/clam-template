@@ -1,7 +1,7 @@
 {:mvn/repos {"github" {:url "https://maven.pkg.github.com/kepler16/*"}}
  :deps {thheller/shadow-cljs {:mvn/version "2.11.6"}
         cljs-bean/cljs-bean {:mvn/version "1.6.0"}
-        kepler16/firebase {:mvn/version "0.0.1"}
+        kepler16/firebase {:mvn/version "1.1.0"}
         kepler16/clam {:mvn/version "1.0.0"}
         cider/cider-nrepl {:mvn/version "0.25.4"}
         refactor-nrepl/refactor-nrepl {:mvn/version "2.5.0"}
