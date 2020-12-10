@@ -1,11 +1,14 @@
 {
 	"private": true,
 	"workspaces": [
-		"client",
+		"site",
 		"api"
 	],
 	"scripts": {
-		"release:client": "cd client && yarn release",
+		"compile:client": "cd site && yarn compile",
+		"compile:api": "cd api && yarn compile",
+		"compile": "npm-run-all --parallel compile:*",
+		"release:client": "cd site && yarn release",
 		"release:api": "cd api && yarn release",
 		"release": "npm-run-all --parallel release:*"
 	},
@@ -18,7 +21,9 @@
 		"react": "^17.0.1",
 		"react-dom": "^17.0.1",
 		"react-firebaseui": "^4.1.0",
+		"react-helmet": "^6.1.0",
 		"react-responsive": "^8.1.0",
+		"react-router": "^5.2.0",
 		"react-router-dom": "^5.2.0"
 	}
 }

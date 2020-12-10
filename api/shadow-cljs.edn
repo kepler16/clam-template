@@ -1,4 +1,5 @@
 {:deps true
+ :paths ["src" "../site/resources"]
  :builds
  {:api {:target :node-library
         :js-options {:js-package-dirs ["node_modules" "../node_modules"]}

@@ -1,6 +1,6 @@
 (ns kepler16.clam-template.api.core
-  (:require [kepler16.clam.server :as clam.server]
-            [kepler16.clam.ring.node :as clam.ring]
+  (:require [kepler16.clam.server.core :as clam.server]
+            [kepler16.clam.server.ring.node :as clam.ring]
             [reitit.ring :as reitit.ring]
             [kepler16.clam-template.client.core :as client]))
 
@@ -13,7 +13,7 @@
 
 (def ssr-handler
   (-> (clam.server/ssr-handler
-       [client/document
+       [:div#app
         [client/root]])
       (clam.server/vercel-cache)))
 

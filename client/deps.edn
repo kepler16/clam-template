@@ -1,5 +1,0 @@
-{:mvn/repos {"github" {:url "https://maven.pkg.github.com/kepler16/*"}}
- :paths ["src"]
- :deps {project/root {:local/root ".."}}
- :aliases
- {:dev {:extra-deps {kepler16/clam {:local/root "../.."}}}}}
