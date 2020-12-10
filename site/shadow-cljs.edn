@@ -5,5 +5,5 @@
            :output-dir "../vercel/public/static/dist/cljs"
            :js-options {:js-package-dirs ["node_modules" "../node_modules"]}
            :asset-path "/static/dist/cljs"
-           :modules {:main {:entries [kepler16.clam-template.client.core]
-                            :init-fn kepler16.clam-template.client.core/browser-init!}}}}}
+           :modules {:main {:entries [kepler16.clam-template.site.core]
+                            :init-fn kepler16.clam-template.site.core/browser-init!}}}}}

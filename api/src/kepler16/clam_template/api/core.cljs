@@ -2,7 +2,7 @@
   (:require [kepler16.clam.server.core :as clam.server]
             [kepler16.clam.server.ring.node :as clam.ring]
             [reitit.ring :as reitit.ring]
-            [kepler16.clam-template.client.core :as client]))
+            [kepler16.clam-template.site.core :as site]))
 
 (defn api-404 [_]
   {:body "This is not the route you're looking for"})
@@ -14,7 +14,7 @@
 (def ssr-handler
   (-> (clam.server/ssr-handler
        [:div#app
-        [client/root]])
+        [site/root]])
       (clam.server/vercel-cache)))
 
 (def handler

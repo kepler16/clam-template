@@ -1,4 +1,4 @@
-(ns kepler16.clam-template.client.core
+(ns kepler16.clam-template.site.core
   (:require ["react-router-dom" :as rr]
             [kepler16.clam.client.core :as clam.client]
             ["react-helmet" :as helmet]
