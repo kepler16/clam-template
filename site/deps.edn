@@ -1,10 +1,10 @@
 {:mvn/repos {"github" {:url "https://maven.pkg.github.com/kepler16/*"}}
  :paths ["src"]
- :deps {thheller/shadow-cljs {:mvn/version "2.11.6"}
+ :deps {thheller/shadow-cljs {:mvn/version "2.11.8"}
         kepler16/clam {:mvn/version "2.0.0"}}
 
  :aliases
  {:dev {:extra-deps {kepler16/clam {:local/root "../.."}
-                     cider/cider-nrepl {:mvn/version "0.25.4"}
+                     cider/cider-nrepl {:mvn/version "0.25.5"}
                      refactor-nrepl/refactor-nrepl {:mvn/version "2.5.0"}
                      binaryage/devtools {:mvn/version "1.0.2"}}}}}
