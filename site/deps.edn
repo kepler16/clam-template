@@ -1,7 +1,7 @@
 {:mvn/repos {"github" {:url "https://maven.pkg.github.com/kepler16/*"}}
  :paths ["src"]
  :deps {thheller/shadow-cljs {:mvn/version "2.11.8"}
-        kepler16/clam {:mvn/version "2.0.0"}}
+        kepler16/clam {:mvn/version "4.0.0"}}
 
  :aliases
  {:dev {:extra-deps {kepler16/clam {:local/root "../.."}
