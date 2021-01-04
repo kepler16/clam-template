@@ -1,0 +1,8 @@
+{:mvn/repos {"github" {:url "https://maven.pkg.github.com/kepler16/*"}}
+ :paths ["src" ".clam/cp"]
+ :deps {kepler16/clam {:mvn/version "4.0.0"}}
+ :aliases
+ {:dev {:replace-deps {kepler16/clam {:local/root ".."}}
+        :extra-deps {cider/cider-nrepl {:mvn/version "0.25.5"}
+                     refactor-nrepl/refactor-nrepl {:mvn/version "2.5.0"}
+                     binaryage/devtools {:mvn/version "1.0.2"}}}}}
