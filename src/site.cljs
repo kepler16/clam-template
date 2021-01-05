@@ -11,7 +11,10 @@
   [:div "THE INDEX PAGE"])
 
 (defn a []
-  [:div "PAGE A"])
+  [:<>
+   [head/Head
+    [:title "TITLE FOR A"]]
+   [:div "PAGE A"]])
 
 (defn d []
   [:div "PAGE D"])
