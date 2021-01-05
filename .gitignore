@@ -6,5 +6,6 @@ node_modules
 .shadow-cljs
 
 .vercel
-public/static/dist/cljs/cljs-runtime
+public/static/dist
+api/dist
 .clam/cp

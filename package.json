@@ -2,18 +2,7 @@
 	"scripts": {
 		"build": "echo 'Building...'"
 	},
-	"devDependencies": {
-		"npm-run-all": "^4.1.5",
-		"shadow-cljs": "^2.11.11",
-		"tailwindcss-cli": "^0.1.2",
-		"vercel": "^21.0.1"
-	},
 	"dependencies": {
-		"@kepler16/clam": "^0.0.3",
-		"react": "^17.0.1",
-		"react-dom": "^17.0.1",
-		"react-helmet": "^6.1.0",
-		"react-router": "^5.2.0",
-		"react-router-dom": "^5.2.0"
+		"@kepler16/clam": "^0.0.4"
 	}
 }

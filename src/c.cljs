@@ -1,3 +1,4 @@
 (ns c)
 
-(defn x [] [:div "sdf"])
+(defn component []
+  [:div "PAGE C"])
