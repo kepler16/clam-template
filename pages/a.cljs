@@ -1,4 +1,4 @@
 (ns a)
 
-(defn page {:clam/page true} []
+(defn ^:clam/page page []
   [:div "THIS IS PAGE A"])

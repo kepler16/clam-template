@@ -7,5 +7,5 @@
     [:title "TITLE FOR ALL PAGES"]]
    page])
 
-(defn page {:clam/page true} []
+(defn ^:clam/page page []
   [:div "THIS IS THE INDEX PAGE"])
