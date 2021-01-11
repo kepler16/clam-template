@@ -3,6 +3,6 @@
 		"build": "echo 'Building...'"
 	},
 	"dependencies": {
-		"@kepler16/clam": "^0.0.4"
+		"@kepler16/clam": "^0.0.5"
 	}
 }

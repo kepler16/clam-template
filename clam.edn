@@ -1,2 +1,2 @@
 ;; Optionally specify site root to allow for global control
-{:site {:root site/root}}
+{:site {:root index/root}}
