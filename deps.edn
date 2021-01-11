@@ -8,7 +8,7 @@
                  :sha "2891747e1340986195448052354c3390c9eadd03"}}
 
  :aliases
- {:dev {:replace-deps {kepler16/clam {:local/root ".."}}
+ {:dev {;:replace-deps {kepler16/clam {:local/root ".."}}
         :extra-deps {cider/cider-nrepl {:mvn/version "0.25.5"}
                      refactor-nrepl/refactor-nrepl {:mvn/version "2.5.0"}
                      binaryage/devtools {:mvn/version "1.0.2"}}}}}
