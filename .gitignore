@@ -9,3 +9,5 @@ node_modules
 public/static/dist
 api/dist
 .clam/cp
+/.vercel_build_output/
+/.clam/
