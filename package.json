@@ -1,9 +1,9 @@
 {
 	"scripts": {
-    "vercel-build": "./prepare.sh && npx clam release"
+    "vercel-build": "npx clam release"
 	},
 	"dependencies": {
-		"@kepler16/clam": "^0.0.8",
+		"@kepler16/clam": "^0.0.10",
 		"ws": "^7.4.2"
 	}
 }
