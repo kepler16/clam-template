@@ -1,6 +1,6 @@
 {
 	"scripts": {
-    "vercel-build": "npx clam release"
+    "vercel-build": "npx clam release --vercel"
 	},
 	"dependencies": {
 		"@kepler16/clam": "^0.0.10",
